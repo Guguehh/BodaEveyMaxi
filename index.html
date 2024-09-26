@@ -10,7 +10,7 @@
 <body>
     <!-- Header-->
      <header>
-        <a href="#" class="logo">Eve&Maxi</a>
+        <a href="#" class="logo">Eve y Maxi</a>
         <a href="#" class="menu" onclick="toggleMenu();">
             <ion-icon class="open" name="menu-outline"></ion-icon>
             <ion-icon class="close" name="close-outline"></ion-icon>
@@ -31,10 +31,6 @@
             </li>
         </ul>
 
-        <div class="search">
-            <input type="text" placeholder="Search">
-            <ion-icon name="search-outline"></ion-icon>
-        </div>
      </header>
 
      <!-- Mobile Navigation-->
@@ -57,7 +53,7 @@
             <div class="content">
                 <h1>Nuestra Boda</h1>
                 <p> Acompáñanos en una noche llena de amor, alegría y momentos inolvidables.
-                    ¡No podemos esperar para compartir este día especial!
+            
 
 
                 </p>
@@ -72,11 +68,11 @@
                 </div>
             </div>
         </div>
-<!--
+
          <div class="bg-slide slide-2">
             <div class="content">
                 <h1>La Ceremonia</h1>
-                <p> La Ceremonia se llevará a cabo el Sabado 30 de noviembre a las 21:45 horas en la Basilica Nuestra Señora de la Merced.
+                <p> La Ceremonia se llevará a cabo el Sabado 30 de noviembre a las 21:40 horas en la Basilica Nuestra Señora de la Merced.
                 </p>
             </div>
             <div class="circle bg">
@@ -89,7 +85,7 @@
                 </div>
             </div>
         </div>
--->
+
         <div class="bg-slide slide-3">
             <div class="content">
                 <h1>Nuestro Album de Fotos</h1>
@@ -118,10 +114,12 @@
             <li><a class="slide-btn " data-target="slide-3">3</a></li>
           </ul>
 
-        <div class="share">
+       <!-- <div class="share">
             <p>Confirmar</p>
-            <a href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a href="https://api.whatsapp.com/send?phone=543813530468&text=Hola%20Maximiliano%2C%20confirmo%20mi%20presencia"
+            target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
         </div>
+        -->
 
         <div class="lead">
             
@@ -152,237 +150,93 @@
      <!-- Main Start -->
      <main>
              <!-- About Section-->
-      <section class="about" id="about" >
-        <div class="container">
-            <div class="row">
-                <h1>Nuestra Boda</h1>
+<!-- About Section-->
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="title-row">
+            <h1>Nuestra Boda</h1>
+        </div>
+        <div class="content-row">
+            <div class="image-box">
+                <img src="img/Fotos/foto1.jpg" alt="" class="responsive-img">
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="img-box">
-                        <img src="img/Fotos/main one image.jpg" alt="" class="img-fluid">
+            <div class="text-box">
+                <img src="img/bg-tree.png" alt="" class="section-bg-img">
+                <h4>Nos Casamos</h4>
+                <h5>Estamos dando un paso importante al unir nuestras vidas y te invitamos a celebrar el día</h5>
+                <h4>30 de noviembre.</h4>
+
+                <div class="launch-time">
+                    <div class="countdown-item">
+                        <p id="days">00</p>
+                        <span>Días</span>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <img src="img/bg-tree.png" alt="" class="section-bg-img">
-                    <h4>Nos Casamos...</h4>
-                    <p>¡Estamos emocionados de compartir este momento tan especial con ustedes!
-                        Estamos dando un paso importante al unir nuestras vidas,
-                        y no podríamos estar más felices de que seas parte de esta ocasión tan única para nosotros.
-
-                        Te invitamos a celebrar con nosotros y a disfrutar de una noche llena de amor,
-                        risas y recuerdos inolvidables. Tu presencia hará que este día sea aún más especial y memorable.</p>
-                    <h5>Te invitamos a ser parte de nuestra boda el 30 de noviembre.</h5>
-
-                    <h5>Por favor, confirmanos tu asistencia.</h5>
-
-                    <p>
-                        Es muy importante para nosotros saber si podrás acompañarnos en este día tan especial.
-                        Te agradeceríamos que confirmes tu presencia antes del 10 de octubre para poder organizar
-                        todo de la mejor manera posible.
-                    </p>
-                    <a href="#album" class="section-btn" data-target="album">leer mas</a>
-                                    <!-- Cronómetro -->
-                   <!-- Cronómetro -->
-                    <div class="launch-time">
-    <div class="countdown-item">
-        <p id="days">00</p>
-        <span>Días</span>
-    </div>
-    <div class="countdown-item">
-        <p id="hours">00</p>
-        <span>Horas</span>
-    </div>
-    <div class="countdown-item">
-        <p id="minutes">00</p>
-        <span>Minutos</span>
-    </div>
+                    <div class="countdown-item">
+                        <p id="hours">00</p>
+                        <span>Horas</span>
                     </div>
-                </div>
-
-                <!-- Segunda parte-->
-                <div class="row mt-5">
-                    <h1>Nuestra Boda</h1>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="img-box">
-                            <img src="img/Fotos/main-image.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <img src="img/bg-tree.png" alt="" class="section-bg-img">
-                        <h4>Dónde y Cuando</h4>
-                        <p>
-                            La ceremonia se llevará a cabo el sábado 30 de noviembre a las 21:45 horas en la Basílica Nuestra Señora de la Merced.
-
-Después, la fiesta continuará en el Salón 4H, ubicado en Av. Juan B. Justo 2675, San Miguel de Tucumán, Tucumán, a partir de las 22:30 horas.
-
-¡Estamos deseando celebrar este día tan especial contigo!
-                        </p>
-                        <h5>Te invitamos a ser parte de nuestra boda el 30 de noviembre.</h5>
-                
-                        <h5>Por favor, confirmanos tu asistencia.</h5>
-
-                        <a href="#album" class="section-btn" data-target="album">leer mas</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="row align-items-center">
-                        <div class="col-md-4">
-                            <div class="gift-img-box">
-                                <img src="img/gift.png" alt="Regalo" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="gift-text">
-                                <h4>¡Queremos tu compañía!</h4>
-                                <p>Queremos que sepas que tu compañía en nuestro día especial es el regalo más valioso para nosotros. Sin embargo, si aún deseas hacernos un obsequio, te dejamos nuestros datos bancarios para que puedas hacerlo de la manera más conveniente.</p>
-                                <h5><strong>Alias:</strong> evelinaalinsi89.uala</h5>
-                                <h5><strong>CBU:</strong> 0000007900273397856651</h5>
-                            </div>
-                        </div>
+                    <div class="countdown-item">
+                        <p id="minutes">00</p>
+                        <span>Minutos</span>
                     </div>
                 </div>
             </div>
         </div>
-      </section>
-      <!-- Services Section-->
-       <section class="services" id="sevices">
-        <div class="container">
-            <div class="row">
-                <h1>La Ceremonia</h1>
+
+        <!-- Segunda parte -->
+        <div class="content-row mt-5">
+            <div class="image-box order-2">
+                <img src="img/Fotos/Foto2.jpg" alt="" class="responsive-img">
             </div>
-            <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-lg-4 d-flex justify-content-center align-items-center">
-                    <div class="card">
-                        <div class="img-box">
-                            <img src="img/services-1.jpg" alt="">
-                        </div>
-                        <div class="details">
-                            <h4>Planeamiento</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
-                                 repudiandae officia accusantium illum provident molestias vero voluptas 
-                                 ea vel exercitationem reprehenderit! Eum ducimus saepe cumque?
-                                 Eligendi, esse in? Impedit, mollitia!
-                            </p>
-                            <a href="/" class="section-btn">Conocer más</a>
-                        </div>
-                    </div>
+            <div class="text-box order-1">
+                <img src="img/bg-tree.png" alt="" class="section-bg-img">
+                <h4>Ceremonia Religiosa</h4>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.261471350295!2d-65.2010241!3d-26.8316347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c1ab0964a59%3A0xe755dda931a7199b!2sAv.%2024%20de%20Septiembre%20253%2C%20T4000CNE%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1727043892460!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-lg-4 d-flex justify-content-center align-items-center">
-                    <div class="card">
-                        <div class="img-box">
-                            <img src="img/services-2.jpg" alt="">
-                        </div>
-                        <div class="details">
-                            <h4>Planeamiento Ceremonia</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
-                                 repudiandae officia accusantium illum provident molestias vero voluptas 
-                                 ea vel exercitationem reprehenderit! Eum ducimus saepe cumque?
-                                 Eligendi, esse in? Impedit, mollitia!
-                            </p>
-                            <a href="/" class="section-btn">Conocer más</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 d-flex justify-content-center align-items-center">
-                    <div class="card">
-                        <div class="img-box">
-                            <img src="img/services-3.jpg" alt="">
-                        </div>
-                        <div class="details">
-                            <h4>Honeymoon</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
-                                 repudiandae officia accusantium illum provident molestias vero voluptas 
-                                 ea vel exercitationem reprehenderit! Eum ducimus saepe cumque?
-                                 Eligendi, esse in? Impedit, mollitia!
-                            </p>
-                            <a href="/" class="section-btn">Conocer más</a>
-                        </div>
-                    </div>
-                </div>
+                <h5>Basílica Nuestra Señora de la Merced, a las 21:40hs</h5>
+                <h5>24 de septiembre 253</h5>
             </div>
         </div>
-       </section>
-      <!-- Album Section-->
-<!--       <section class="album" id="album">
-        <div class="container">
-            <div class="row">
-                <h1>Nuestro album de fotos</h1>
+
+        <div class="content-row">
+            <div class="image-box order-2">
+                <img src="img/Fotos/gif.gif" alt="" class="responsive-img">
             </div>
-
-            <div class="album-container">
-
-                <div class="photo-gallery">
-                    
-                    <div class="column">
-                        <div class="photo" onclick="openLightBox(); currentSlide(1)">
-                            <img src="img/Fotos/IMG-20240817-WA0114.jpg" alt="Foto 1">
-                        </div>
-                        <div class="photo" onclick="openLightBox(); currentSlide(2)">
-                            <img src="img/Fotos/IMG-20240817-WA0112.jpg" alt="Foto 2">
-                        </div>
-                        <div class="photo" onclick="openLightBox(); currentSlide(3)">
-                            <img src="img/Fotos/IMG-20240817-WA0115.jpg" alt="Foto 3">
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="photo" onclick="openLightBox(); currentSlide(4)">
-                            <img src="img/Fotos/IMG-20240817-WA0119.jpg" alt="">
-                        </div>
-                        <div class="photo" onclick="openLightBox(); currentSlide(5)">
-                            <img src="img/Fotos/IMG-20240817-WA0120.jpg" alt="">
-                        </div>
-                        <div class="photo">
-                            <img src="img/Fotos/IMG-20240817-WA0122.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="photo" onclick="openLightBox(); currentSlide(5)">
-                            <img src="img/Fotos/IMG-20240817-WA0127.jpg" alt="">
-                        </div>
-                        <div class="photo" onclick="openLightBox(); currentSlide(6)">                         
-                            <img src="img/Fotos/IMG-20240817-WA0123.jpg" alt="">
-                        </div>
-                        <div class="photo" onclick="openLightBox(); currentSlide(7)">
-                            <img src="img/Fotos/IMG-20240817-WA0128.jpg" alt="">
-                        </div>
-
-                    </div>
-
-                    </div>                    
-                
-                <!-- Lightbox 
-<div id="lightbox" class="lightbox">
-    <span class="close" onclick="closeLightbox()">&times;</span>
-    <div class="lightbox-content">
-        <div class="slides">
-            <div class="slide">
-                <img src="img/photo1.jpg" alt="Foto 1">
-            </div>
-            <div class="slide">
-                <img src="img/photo2.jpg" alt="Foto 2">
-            </div>
-            <div class="slide">
-                <img src="img/photo3.jpg" alt="Foto 3">
+            <div class="text-box order-1">
+                <img src="img/bg-tree.png" alt="" class="section-bg-img">
+                <h4>Recepción</h4>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.261471350295!2d-65.2010241!3d-26.8316347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c1ab0964a59%3A0xe755dda931a7199b!2sAv.%2024%20de%20Septiembre%20253%2C%20T4000CNE%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1727043892460!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <h5>Salon 4H, a las 22:30 hs</h5>
+                <h5>Avenida Juan B Justo 2675</h5>
             </div>
         </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="content-row align-items-center">
+            <div class="gift-img-box">
+                <img src="img/gift.png" alt="Regalo" class="responsive-img">
+            </div>
+            <div class="gift-text">
+                <h4 class="textgift">Tu presencia es el mejor regalo</h4>
+                <p>Si deseas colaborar con nuestro proyecto, puedes hacernos un regalo.</p>
+                <h5><strong>Alias:</strong> evelinaalonso89.uala</h5>
+            </div>
+        </div>
+
+        <a href="https://api.whatsapp.com/send?phone=543816334339&text=Hola%2C%20confirmo%20mi%20presencia" target="_blank">
+            <h4 class="min">Toca aquí para confirmar asistencia hasta el 30 de octubre.</h4>
+        </a>
     </div>
-</div>
 
-                </div>
-            </div>
-        </div>
-       </section> -->
+    <footer class="mini-footer">
+        <p>Created with love by <a href="https://www.behance.net/guguehh" target="_blank">Gugueh ❤️</a></p>
+    </footer>
+</section>
 
-       <!-- Album Section-->
-<section class="album" id="album">
+       <section class="album" id="album">
     <div class="container">
         <div class="row">
             <h1>Nuestro álbum de fotos</h1>
@@ -464,6 +318,9 @@ Después, la fiesta continuará en el Salón 4H, ubicado en Av. Juan B. Justo 26
             </div>
         </div>
     </div>
+    <footer class="mini-footer">
+        <p>Created with love by <a href="https://www.behance.net/guguehh" target="_blank">Gugueh ❤️</a></p>
+        </footer>
 </section>
 
 
@@ -473,9 +330,7 @@ Después, la fiesta continuará en el Salón 4H, ubicado en Av. Juan B. Justo 26
                 <div class="row">
                     <h1>Como llegar al Salón</h1>
                 </div>
-                <p>El gran día será en el salón ubicado en la Avenida Juan B Justo 2675. Para que no te pierdas,
-                     aquí te dejamos un mapa que te guiará. ¡Esperamos verte allí y celebrar juntos!
-
+                <p>El gran día será en el salón ubicado en la Avenida Juan B Justo 2675.
                 </p>
             </div>
                 <!-- Mapa-->
@@ -503,14 +358,14 @@ Después, la fiesta continuará en el Salón 4H, ubicado en Av. Juan B. Justo 26
                     </div>
                  </div>
             </div>
-        </section>
+        </section>        
+        <audio id="background-music" autoplay loop>
+            <source src="sounds/Para Siempre - Benjamín Amadeo, Soledad.mp3" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        
      </main>
 
-     <!-- Audio Element -->
-<audio id="background-music" autoplay loop>
-    <source src="sounds/Para Siempre - Benjamín Amadeo, Soledad.mp3" type="audio/mp3">
-    Tu navegador no soporta el elemento de audio.
-</audio>
 
      <!-- JavaScript Helpers-->
      <script
@@ -529,5 +384,6 @@ Después, la fiesta continuará en el Salón 4H, ubicado en Av. Juan B. Justo 26
 
      <!-- Custom JavaScript-->
      <script src="main.js"></script>
+
 </body>
 </html>
